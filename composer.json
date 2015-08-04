@@ -1,0 +1,23 @@
+{
+    "name": "guiguiboy/free-mobile-sms",
+    "description": "Use Free Mobile API to send SMS",
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "fabpot/php-cs-fixer": "^1.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume BRETOU",
+            "email": "guillaume.bretou@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "FreeMobileSMS\\": "src/FreeMobileSMS/"
+      }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~5.3"
+    }
+}
