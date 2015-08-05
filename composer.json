@@ -12,6 +12,8 @@
             "email": "guillaume.bretou@gmail.com"
         }
     ],
+    "homepage": "https://github.com/guiguiboy/FreeMobileSMS",
+    "keywords": ["cli", "sms", "free mobile"],
     "autoload": {
       "psr-4": {
         "FreeMobileSMS\\": "src/FreeMobileSMS/"
